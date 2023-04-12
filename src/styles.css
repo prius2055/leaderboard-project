@@ -1,0 +1,56 @@
+.container {
+  border: 2px black solid;
+  max-width: 500px;
+  margin: 5% auto;
+  padding-left: 2%;
+  padding-right: 2%;
+  padding-bottom: 2%;
+}
+
+.board {
+  display: flex;
+  justify-content: space-between;
+}
+
+.board-left {
+  display: flex;
+  flex-direction: column;
+}
+
+.recent-scores {
+  display: flex;
+  align-items: center;
+}
+
+.recent-scores button {
+  padding: 5px 20px;
+  margin-left: 30px;
+}
+
+.display-scores {
+  border: 2px black solid;
+  padding-left: 0;
+}
+
+.display-scores li {
+  list-style: none;
+  padding-left: 5px;
+}
+
+.display-scores li:nth-child(even) {
+  background-color: #ccc;
+}
+
+.board-right {
+  display: flex;
+  flex-direction: column;
+}
+
+.board-right input {
+  margin-bottom: 15px;
+}
+
+.board-right button {
+  width: 50%;
+  align-self: flex-end;
+}
