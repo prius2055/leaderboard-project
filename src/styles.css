@@ -27,17 +27,17 @@
   margin-left: 30px;
 }
 
-.display-scores {
-  border: 2px black solid;
+.score-board {
+  border: 1px black solid;
   padding-left: 0;
 }
 
-.display-scores li {
+.score-board li {
   list-style: none;
   padding-left: 5px;
 }
 
-.display-scores li:nth-child(even) {
+.score-board li:nth-child(even) {
   background-color: #ccc;
 }
 
