@@ -143,6 +143,12 @@ npm i css-loader style-loader --save-dev
   npm install
 ```
 
+### To see demo
+
+```sh
+  npm start
+```
+
 ### Run tests
 
 To run tests, run the following command: npm test
