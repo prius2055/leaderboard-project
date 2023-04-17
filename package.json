@@ -21,13 +21,16 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack --mode development",
-    "start": "webpack serve --open"
+    "start": "webpack serve --open",
+    "deploy": "gh-pages -d dist"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "homepage": "https://prius2055.github.io/leaderboard",
   "dependencies": {
     "css-loader": "^6.7.3",
+    "gh-pages": "^5.0.0",
     "style-loader": "^3.3.2"
   }
 }

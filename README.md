@@ -76,7 +76,7 @@ This is a Leaderboard that displays names of individuals and their scores.
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- Live demo will be available soon
+- Click [Live Demo](https://prius2055.github.io/leaderboard-project/) to see the project
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
